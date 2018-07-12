@@ -18,7 +18,7 @@ n = int(input("Enter the number which defines terms in the sequence: "))
 if n==0:
     print("Invalid input as series must contains atleast two numbers")
 elif n==1:
-    print("Please print{}".format(a))
+    print("{}".format(a))
 elif n==2:
     print("Sequence is {},{}".format(a,b))
 elif n>=2:
