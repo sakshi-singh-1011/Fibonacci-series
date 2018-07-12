@@ -20,7 +20,7 @@ if n==0:
 elif n==1:
     print("{}".format(a))
 elif n==2:
-    print("Sequence is {},{}".format(a,b))
+    print("{},{}".format(a,b))
 elif n>=2:
     print('{},{}'.format(a,b),end='')
     for i in range(2,n):
